@@ -1,0 +1,48 @@
+    section{
+        background-color:rgb(192, 232, 233);
+        height:100vh;
+        width:100vw;
+    }
+   
+    .calci{
+        background-color:white;
+        border: 1px solid black;
+        border-radius:5px ;
+        height:80vh;
+        width:20vw;
+        margin-left:50px;
+         position:relative;
+         top:50px;
+    }
+    .box{
+        background-color:white;
+        border: 1px solid rgb(212, 206, 206);
+        border-radius:5px ;
+        height:78vh;
+        width:19vw;
+        margin:5px 5px;
+        
+    }
+    input{
+        border:1px solid black;
+        padding:10px;
+        margin:10px 8px 0px 8px;
+        padding:10px;
+        font-size:20px;
+         }
+
+    .button-container{
+       display:flex;
+       justify-content:center;
+       flex-wrap: wrap;
+       margin:24px 23px ;
+       }
+    button{
+       padding:10px;
+       margin:10px;
+       width:58px;
+       height:58px;
+       font-size:20px;
+       background-color:rgb(250, 248, 239);
+       border:0.5px solid rgb(189, 169, 140);
+    }
